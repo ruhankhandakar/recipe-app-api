@@ -1,6 +1,6 @@
 [flake8]
 max-line-length = 160
-ignore = D100, D400, D204, D101
+ignore = D100, D400, D204, D101, D210
 exclude = 
     migrations,
     __pycache__,
