@@ -1,6 +1,13 @@
 [flake8]
+max-line-length = 160
+ignore = D100, D400, D204, D101
 exclude = 
     migrations,
     __pycache__,
     manage.py,
     settings.py
+    */tests/*
+    */__init__.py
+    **/__init__.py
+
+    
